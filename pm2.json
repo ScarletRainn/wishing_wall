@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "wish",
+      "script": "bin/www",
+      "merge_logs": true,
+      "instance": 0,
+      "exec_mode": "cluster",
+      "env": {
+        "NODE_ENV": "development",
+        "PORT": 3001
+      }
+    }
+  ]
+}
